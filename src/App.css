@@ -1,0 +1,86 @@
+.ant-btn-icon {
+  color: #fff;
+  transition: 0.3s;
+}
+
+.ant-btn-icon:hover {
+  color: #ddd !important;
+}
+.swal2-confirm,
+.swal2-styled {
+  background: #333 !important;
+}
+.ant-layout-sider-children > *,
+.ant-layout-sider-children {
+  background: #333;
+}
+.ant-btn {
+  background: #333;
+  color: #fff;
+}
+.ant-btn:hover {
+  background: #ddd !important;
+  color: #333 !important;
+  border: 1px solid #333 !important;
+}
+.ant-layout-sider-trigger {
+  display: none !important;
+}
+
+.ant-menu-item-selected {
+  background: #222 !important;
+}
+.ant-layout-sider-has-trigger {
+  padding: 0 !important;
+}
+.avatar > img {
+  border-radius: 2px !important;
+}
+
+/* SCROLL BAR DESIGN */
+
+/* WebKit tabanlı tarayıcılar (Chrome, Safari) için */
+.your-custom-scrollbar::-webkit-scrollbar, textarea::-webkit-scrollbar {
+  width: 4px !important; /* Scrollbar genişliği */
+}
+
+.your-custom-scrollbar::-webkit-scrollbar-thumb, textarea::-webkit-scrollbar-thumb {
+  background-color: #383838; /* Scrollbar rengi */
+  border-radius: 10px !important; /* Köşe yuvarlatma */
+}
+
+.your-custom-scrollbar::-webkit-scrollbar-track, textarea::-webkit-scrollbar-track {
+  background-color: transparent !important; /* Scrollbar arka plan rengi */
+}
+.your-custom-scrollbar, textarea {
+  scrollbar-width: thin; /* İnce scrollbar */
+  scrollbar-color: #383838 #f1f1f1; /* Scrollbar rengi ve arka plan rengi */
+}
+
+.esmer{
+  background: transparent !important;
+}
+.esmer:hover{
+  background: transparent !important;
+}
+.ant-spin-dot {
+  background: #33333335;
+  box-shadow: 0 0 60px #333;
+}
+.ant-spin-dot-spin{
+  color: #222;
+}
+.flex-input{
+  width: 300px !important;
+  background: red;
+  display: flex;
+  
+}
+.select-flex{
+  background: blue !important;
+  width: 100px !important;
+  min-width: none !important;
+}
+.flex-input> *{
+width: 150px !important;
+}
